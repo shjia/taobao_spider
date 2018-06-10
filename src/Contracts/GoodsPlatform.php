@@ -1,5 +1,5 @@
 <?php
-namespace Contracts;
+namespace Ezspider\Contracts;
 
 interface GoodsPlatform{
     //商品名称

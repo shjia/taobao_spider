@@ -9,7 +9,7 @@
 namespace Ezspider\Model;
 
 use Ezspider\Common;
-use Contracts\GoodsPlatform;
+use Ezspider\Contracts\GoodsPlatform;
 
 class Tmall extends Base implements GoodsPlatform{
     public $itemid = '';
