@@ -1,0 +1,20 @@
+{
+    "name": "shjia/taobao_spider",
+    "description": "淘宝、天猫商品爬虫",
+    "type": "project",
+    "keywords": [
+        "taobao-spider",
+        "tmall-spider"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chimu",
+            "email": "chimu@gbokee.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.25",
+        "aliyuncs/oss-sdk-php": "^2.2"
+    }
+}

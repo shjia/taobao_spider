@@ -1,5 +1,5 @@
 <?php
-require_once dirname(__DIR__) . '/vendor/aliyuncs/oss-sdk-php/autoload.php';
+require_once dirname(__DIR__) . '/vendor/autoload.php';
 
 function ezLoader($class)
 {
