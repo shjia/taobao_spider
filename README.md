@@ -6,6 +6,10 @@
 
 ## Installation
 
+```shell
+composer require "shjia/taobao_spider:~1.0"
+```
+
 ## Usage
 
 ```php

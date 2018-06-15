@@ -9,6 +9,7 @@
 namespace Ezspider\Model;
 
 use Ezspider\Common;
+use Ezspider\Model\Base;
 use Ezspider\Contracts\GoodsPlatform;
 
 class Tmall extends Base implements GoodsPlatform{

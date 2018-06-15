@@ -1,7 +1,7 @@
 <?php
 namespace Ezspider\Model;
 
-use Oss\Core\OssUtil;
+use OSS\Core\OssUtil;
 
 class Base{
 
