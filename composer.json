@@ -6,7 +6,6 @@
         "taobao-spider",
         "tmall-spider"
     ],
-    "license": "MIT",
     "authors": [
         {
             "name": "chimu",
@@ -16,5 +15,11 @@
     "require": {
         "php": ">=5.5.25",
         "aliyuncs/oss-sdk-php": "^2.2"
-    }
+    },
+    "autoload": {
+        "psr-4": {
+            "Ezspider\\": "src"
+        }
+    },
+    "license": "MIT"
 }
