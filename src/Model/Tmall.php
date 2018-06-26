@@ -12,7 +12,7 @@ use Ezspider\Common;
 use Ezspider\Model\Base;
 use Ezspider\Contracts\GoodsPlatform;
 
-class Tmall extends Base implements GoodsPlatform{
+class Tmall extends Base {
     public $itemid = '';
 
     public function __construct($itemid){

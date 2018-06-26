@@ -11,7 +11,7 @@ use Ezspider\Common;
 use Ezspider\Model\Base;
 use Ezspider\Contracts\GoodsPlatform;
 
-class Taobao extends Base implements GoodsPlatform{
+class Taobao extends Base{
 
     public $goodsConfig ;
     public function __construct($itemid){

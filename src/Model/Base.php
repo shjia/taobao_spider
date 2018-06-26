@@ -3,7 +3,7 @@ namespace Ezspider\Model;
 
 use OSS\Core\OssUtil;
 
-class Base{
+abstract class Base{
 
     /**
      * 检查html的编码，如果是gbk或者gb2312则尝试将其转化为utf8编码
@@ -26,5 +26,14 @@ class Base{
         }
         return $tmp_obj;
     }
+
+    //商品名称
+    abstract public function getGoodsTitle();
+
+    //商品缩略图
+    abstract public function getPreviewImg();
+
+    //商品详情
+    abstract public function getDetails();
 
 }
